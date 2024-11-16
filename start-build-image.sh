@@ -9,4 +9,4 @@ docker run \
     -v /tftpboot:/tftpboot \
     -v `pwd`:/home/$(whoami) \
     -v ~/.ssh:/home/$(whoami)/.ssh \
-    pseudo-design-linux-build
+    pseudo-design-linux-build:scarthgap
