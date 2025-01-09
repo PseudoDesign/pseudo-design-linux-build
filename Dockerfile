@@ -6,7 +6,7 @@ RUN \
         dpkg --add-architecture i386 && \
         apt-get update && \
         apt-get install -yq sudo vim gawk wget git libncurses5 diffstat unzip texinfo \
-        gcc build-essential chrpath socat cpio python3 python3-pip \
+        gcc build-essential chrpath socat cpio python3 python3-pip screen \
         python3-pexpect xz-utils debianutils iputils-ping python3-git \
         python3-jinja2 python3-subunit zstd liblz4-tool file locales libacl1 iproute2 &&\
         rm -rf /var/lib/apt-lists/* && \
