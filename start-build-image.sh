@@ -12,7 +12,7 @@ docker run \
     --device=/dev/kvm:/devb/kvm \
     --device=/dev/net/tun:/dev/net/tun \
     --cap-add NET_ADMIN \
-    --hostname pseudo-design-linux-build \
+    --hostname pseudo-design-linux-build:scarthgap \
     -it \
     -v /tftpboot:/tftpboot \
     -v `pwd`:/home/$(whoami) \
