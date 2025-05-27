@@ -2,7 +2,14 @@
 
 This is the build container for the [pseudo-design-linux](https://github.com/PseudoDesign/pseudo-design-linux-dev) project.  Until the need for verbose documentation for the docker container is needed, please see that repository for details on using this container.
 
-## Scripts
+## Docker Compose
+
+This project manages build containers using [Docker Compose](https://docs.docker.com/compose/intro/compose-application-model/).  
+
+
+
+
+## Scripts (Legacy)
 
 ### create-build-image.sh
 

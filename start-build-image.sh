@@ -15,6 +15,8 @@ docker run \
     --hostname pseudo-design-linux-build:scarthgap \
     -it \
     -v /tftpboot:/tftpboot \
-    -v `pwd`:/home/$(whoami) \
-    -v ~/.ssh:/home/$(whoami)/.ssh \
+    -v /home/$(whoami):/home/$(whoami) \
+    -w $PWD \
     pseudo-design-linux-build:scarthgap
+
+    
