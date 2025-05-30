@@ -13,7 +13,7 @@ Build the docker image.  By default, this is named `pseudo-design-linux-build:sc
 
 ### start-build-image.sh
 
-Start the build image, setting various docker environment variables needed by the build container.  See the script for details.
+Start the build image, setting various docker environment variables needed by the build container and initializing the Yocto environment.  See the script for details.
 
 You can override the following environment variables:
 
@@ -22,7 +22,9 @@ DOCKER_FULL_IMAGE_NAME - The container name/tag to start.  Defaults to pseudo-de
 DOCKER_NETWORK_HOSTNAME - The hostname of the container's network.  Defaults to pseudo-design-linux-build:scarthgap.
 ```
 
-## Docker Compose (WIP)
+You can pass a command to this container to run
+
+## Docker Compose (Unfinished, TBD if this is useful)
 
 This project manages build containers using [Docker Compose](https://docs.docker.com/compose/intro/compose-application-model/).  
 

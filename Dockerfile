@@ -13,6 +13,7 @@ RUN \
         echo "dash dash/sh boolean false" | debconf-set-selections && \
         dpkg-reconfigure dash
 
+# These arguments are automatically set in the `create-build-image.sh` file.  
 ARG GROUP_ID=1000
 ARG USER_ID=1001
 ARG USER_NAME=build
