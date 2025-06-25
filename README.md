@@ -22,9 +22,10 @@ DOCKER_FULL_IMAGE_NAME - The container name/tag to start.  Defaults to pseudo-de
 DOCKER_NETWORK_HOSTNAME - The hostname of the container's network.  Defaults to pseudo-design-linux-build:scarthgap.
 ```
 
-You can pass a command to this container to run
+You can pass a command to this container to run, e.g. `./start-docker-image.sh bitbake MACHINE=cora-z7 core-image-minimal`
 
 ## Docker Compose (Unfinished, TBD if this is useful)
 
 This project manages build containers using [Docker Compose](https://docs.docker.com/compose/intro/compose-application-model/).  
+
 
